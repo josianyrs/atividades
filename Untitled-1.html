@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <title>Como Você Pode Ajudar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container {
+            font-family: 'Inter', sans-serif !important;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header-box {
+            display: inline-block;
+            background: #ECFDF6;
+            color: #007AFF;
+            padding: 6px 16px 6px 16px;
+            gap: 8px;
+            border-radius: 8px;
+            outline: 1px solid #007AFF;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28.8px;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 56px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .descricao {
+            font-size: 18px;
+            color: #404040;
+            line-height: 28.8px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .ajuda-section {
+            gap: 48px;
+            display: flex;
+            justify-content: space-between;
+            flex: row;
+        }
+        .card {
+            width: 30%;
+            gap: 32px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+        }
+        .card h3 {
+            font-weight: 700;
+            margin: 15px 0 10px;
+            line-height: 44.8px;
+            color: #262626;
+            font-size: 32px;
+            text-align: left;
+        }
+        .card p {
+            font-weight: 400;
+            line-height: 25.6px;
+            font-size: 16px;
+            color: #404040;
+            text-align: left;
+        }
+        @media (max-width: 768px) {
+            .ajuda-section {
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                flex: row;
+            }
+            .card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-box">Ajude</div>
+        <h2>Como você pode ajudar</h2>
+        <p class="descricao">A proteção das crianças e adolescentes depende do envolvimento de todos. Você pode fazer a diferença apoiando o trabalho do Conselho Tutelar no Rio Grande do Sul. Seja através de doações, voluntariado ou divulgando informações essenciais, cada ação conta para garantir um futuro mais seguro para aqueles que mais precisam.</p>
+        <div class="ajuda-section">
+            <div class="card">
+                <img src="denuncie.jpg" alt="Mãos segurando moedas">
+                <h3>Denuncie</h3>
+                <p>Se souber de alguma situação de risco, denuncie aos denuncie aos canais oficiais..</p>
+            </div>
+            <div class="card">
+                <img src="doe.jpg" alt="Pessoas carregando caixas">
+                <h3>Doe</h3>
+                <p>Contribua com roupas, alimentos, materiais escolares e outros itens essenciais.</p>
+            </div>
+            <div class="card">
+                <img src="voluntario.jpg" alt="Multidão ajudando em um evento">
+                <h3>Seja um voluntário</h3>
+                <p>Ajude ações sociais e faça a diferença na vida de muitas crianças.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
