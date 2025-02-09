@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //converter string para numero
+       var n1 = Number(window.prompt('digite um número:')); //number converte o numero em real ou interior | number.parseFloat = numeros reais | number.parseInt = numeros interios
+       var n2 = Number(window.prompt('digite outro número:'));
+       window.alert('A soma de ' + n1  + ' + ' + n2 + ' é: ' + (n1+n2));
+
+        //converter numero para string
+        var n3 = String(n1);
+        var n4 = String(n2);
+        window.alert('A soma de ' + n3  + ' + ' + n4 + ' é: ' + (n3+n4));   
+        window.alert(`A soma de ${n3} e ${n4} é ${(n3+n4)}`);  //outra forma de escrever com as variveis sem usar +
+    </script>
+</body>
+</html>
